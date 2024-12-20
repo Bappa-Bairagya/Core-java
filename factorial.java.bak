@@ -1,0 +1,16 @@
+class factorial 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("factorial");
+		int n=5;
+		while(n!=0){
+		int fact=1;
+		for(int i=1;i<=n;n--){
+			fact=fact*i;
+		}
+System.out.println(fact);
+		}
+		
+	}
+}

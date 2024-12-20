@@ -1,0 +1,15 @@
+class leap
+{
+	static void operation(int year){
+		if(((year%4==0) && (year%100!=0)) || (year%400==0)){
+			System.out.println(" Year");
+		}
+		else{
+			System.out.println("Not Leap Year");
+			}
+	}
+	public static void main(String[] args) 
+	{
+		operation(2011);
+	}
+}
